@@ -1,0 +1,7 @@
+.vscode/
+.env/
+node_modules
+__pycache__
+app/static/img
+Pipfile.lock
+.flaskenv

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="col-sm-12">
+        <h1>Chord Finder</h1>
+        <div class="form-group">
+            <label for="root-select-label">Root</label>
+            <select class="form-control" id="root-select">
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="mode-select-label">Mode</label>
+            <select class="form-control" id="mode-select" disabled>
+              <option class="mode-item select-item">Ionian</option>
+              <option class="mode-item select-item">Dorian</option>
+              <option class="mode-item select-item">Phrygian</option>
+              <option class="mode-item select-item">Lydian</option>
+              <option class="mode-item select-item">Mixolydian</option>
+              <option class="mode-item select-item">Aeolian</option>
+              <option class="mode-item select-item">Locrian</option>
+            </select>
+          </div>
+          <div class="chords">
+
+          </div>
+    </div>
+</div>
+</div>
+{% endblock %}
